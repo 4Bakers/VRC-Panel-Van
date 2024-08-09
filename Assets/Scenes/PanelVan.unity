@@ -358,7 +358,7 @@ PrefabInstance:
     - target: {fileID: 2342133323809603289, guid: 29d02e6c16cb2164fb987667d39f48c5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.03699994
       objectReference: {fileID: 0}
     - target: {fileID: 2342133323809603289, guid: 29d02e6c16cb2164fb987667d39f48c5,
         type: 3}
@@ -418,7 +418,7 @@ PrefabInstance:
     - target: {fileID: 2342133323809603289, guid: 29d02e6c16cb2164fb987667d39f48c5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.037
       objectReference: {fileID: 0}
     - target: {fileID: 2342133323809603289, guid: 29d02e6c16cb2164fb987667d39f48c5,
         type: 3}
@@ -546,7 +546,7 @@ PrefabInstance:
     - target: {fileID: 2342133323809603289, guid: 29d02e6c16cb2164fb987667d39f48c5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.03699994
       objectReference: {fileID: 0}
     - target: {fileID: 2342133323809603289, guid: 29d02e6c16cb2164fb987667d39f48c5,
         type: 3}
@@ -723,17 +723,17 @@ MonoBehaviour:
   renderSettingsHackAORadius: 1
   renderSettingsShowAOSettings: 1
   renderSettingsShowTasks: 1
-  renderSettingsShowTasks2: 0
+  renderSettingsShowTasks2: 1
   renderSettingsShowPaths: 1
   renderSettingsShowNet: 1
   renderSettingsOcclusionProbes: 0
-  renderSettingsTexelsPerMap: 0
+  renderSettingsTexelsPerMap: 1
   renderSettingsTexelsColor: 1
   renderSettingsTexelsMask: 1
   renderSettingsTexelsDir: 1
   renderSettingsShowDirWarning: 1
   renderSettingsRenderDirMode: 0
-  renderSettingsShowCheckerSettings: 0
+  renderSettingsShowCheckerSettings: 1
   renderSettingsSamplesWarning: 1
   renderSettingsPrefabWarning: 1
   renderSettingsSplitByScene: 0
@@ -747,7 +747,7 @@ MonoBehaviour:
   renderSettingsClientMode: 0
   renderSettingsServerAddress: 127.0.0.1
   renderSettingsUnwrapper: 0
-  renderSettingsDenoiserType: 101
+  renderSettingsDenoiserType: 100
   renderSettingsExportTerrainTrees: 0
   renderSettingsShowPerf: 1
   renderSettingsSampleDiv: 1
@@ -855,11 +855,9 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   implicitGroups:
-  - {fileID: 1971116843}
-  - {fileID: 1950903357}
-  - {fileID: 1950903357}
+  - {fileID: 2069957526}
+  - {fileID: 2069957526}
   implicitGroupedObjects:
-  - {fileID: 0}
   - {fileID: 881443700}
   - {fileID: 1017210228}
   bounds:
@@ -1728,7 +1726,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2126657997}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1950903357
+--- !u!114 &2069957526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1743,9 +1741,9 @@ MonoBehaviour:
   resolution: 4096
   bitmask: 1
   id: 0
-  sortingID: 1
+  sortingID: -1
   isImplicit: 1
-  area: 149.97522
+  area: 150.73145
   totalVertexCount: 0
   vertexCounter: 0
   sceneLodLevel: -1
@@ -1755,47 +1753,6 @@ MonoBehaviour:
   mode: 1
   renderMode: 1000
   renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
---- !u!114 &1971116843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: probes
-  m_EditorClassIdentifier: 
-  resolution: 4096
-  bitmask: 1
-  id: 1
-  sortingID: 0
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 144
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 1
-  mode: 2
-  renderMode: 1000
-  renderDirMode: 5
   atlasPacker: 1000
   computeSSS: 0
   sssSamples: 16

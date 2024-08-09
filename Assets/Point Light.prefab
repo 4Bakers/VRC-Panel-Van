@@ -113,7 +113,6 @@ MonoBehaviour:
   shadowSpread: 0.05
   cutoff: 4
   realisticFalloff: 0
-  legacySampling: 1
   samples: 8
   projMode: 0
   cookie: {fileID: 0}
@@ -124,9 +123,7 @@ MonoBehaviour:
   bitmask: 1
   bakeToIndirect: 0
   shadowmask: 0
-  shadowmaskFalloff: 0
   indirectIntensity: 1
   falloffMinRadius: 1
   shadowmaskGroupID: 0
   directionMode: 0
-  maskChannel: 0
