@@ -15,7 +15,7 @@ It's a panel van just because that limits the scope of the environment
 # External Dependencies
 This project includes paid prefabs! I'm too lazy to read all the licenses, so I'm playing it safe and not including any of them. However, I will list what they are in case you need them.
 - [Bakery GPU Lightmapper](https://assetstore.unity.com/packages/tools/level-design/bakery-gpu-lightmapper-122218) v1.9
-- [MovementScaler](digiduncan.gumroad.com/l/movementscaler) v1.1
+- [MovementScaler](https://digiduncan.gumroad.com/l/movementscaler) v1.1
 
 # Available on [VRChat](https://vrchat.com/home/world/wrld_94efd083-e16d-4687-b98f-b6e315b9e2d6)
 It's uploaded on my account. It'll be public at a later date (unless I forgot to update this)
