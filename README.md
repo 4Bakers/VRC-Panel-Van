@@ -4,13 +4,13 @@ It's like-- the inside of a panel van. Maybe you got kidnapped or smth I don't k
 It's a panel van just because that limits the scope of the environment
 
 # Tools / Resources in Use
-VRChat Creator Companion
-Unity 2022
-Latest stable version of Blender (4.2 as of writing)
-Adobe Photoshop
-Adobe Audition
-Sonniss GDC Free Audio Packs
-GitKraken
+- VRChat Creator Companion
+- Unity 2022
+- Latest stable version of Blender (4.2 as of writing)
+- Adobe Photoshop
+- Adobe Audition
+- Sonniss GDC Free Audio Packs
+- GitKraken
 
 # External Dependencies
 This project includes paid prefabs! I'm too lazy to read all the licenses, so I'm playing it safe and not including any of them. However, I will list what they are in case you need them.
