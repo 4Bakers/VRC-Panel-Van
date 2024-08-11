@@ -11,6 +11,7 @@ It's a panel van just because that limits the scope of the environment
 - Adobe Audition
 - Sonniss GDC Free Audio Packs
 - GitKraken
+- [Silent's Filamented Shader](https://gitlab.com/s-ilent/filamented)
 
 # External Dependencies
 This project includes paid prefabs! I'm too lazy to read all the licenses, so I'm playing it safe and not including any of them. However, I will list what they are in case you need them.
