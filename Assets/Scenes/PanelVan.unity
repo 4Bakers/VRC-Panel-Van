@@ -880,7 +880,7 @@ MonoBehaviour:
   renderSettingsUnwrapUVs: 1
   renderSettingsForceDisableUnwrapUVs: 0
   renderSettingsMaxAutoResolution: 2048
-  renderSettingsMinAutoResolution: 256
+  renderSettingsMinAutoResolution: 128
   renderSettingsUnloadScenes: 1
   renderSettingsAdjustSamples: 1
   renderSettingsGILODMode: 0
