@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: tarp
-  m_Shader: {fileID: 4800000, guid: 9829e18681954944a8b25de9b080a0b6, type: 3}
+  m_Shader: {fileID: 4800000, guid: 075dbc3edcecd8747919086245d79325, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -79,6 +79,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _AlphaToMaskMode: 0
@@ -93,7 +97,7 @@ Material:
     - _DstBlend: 0
     - _ExposureOcclusion: 0.2
     - _GlossMapScale: 0.75
-    - _Glossiness: 1
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _LTCGI: 0
     - _LightmapSpecular: 1
