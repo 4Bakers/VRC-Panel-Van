@@ -244,18 +244,6 @@
         "com.unity.ugui": "1.0.0"
       }
     },
-    "com.z3y.shaders": {
-      "version": "file:com.z3y.shaders",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "io.z3y.github.shadergraph": {
-      "version": "file:io.z3y.github.shadergraph",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
