@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mirror
+  m_Name: flashlight
   m_Shader: {fileID: 4800000, guid: 075dbc3edcecd8747919086245d79325, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -127,14 +127,14 @@ Material:
     - _ExposureOcclusion: 0.2
     - _GEOMETRICSPECULAR_AA: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.4
+    - _Glossiness: 0.3
     - _GlossyReflections: 1
     - _LIGHTMAPPED_SPECULAR: 0
     - _LTCGI: 0
     - _LightmapExposure: 1
     - _LightmapSpecular: 1
     - _LightmapSpecularMaxSmoothness: 0.9
-    - _Metallic: 0
+    - _Metallic: 1
     - _MetallicScale: 0
     - _Mode: 0
     - _Neutral: 0
@@ -160,7 +160,7 @@ Material:
     - _specularAntiAliasingThreshold: 0.25
     - _specularAntiAliasingVariance: 0.15
     m_Colors:
-    - _Color: {r: 0.099, g: 0.099, b: 0.099, a: 1}
+    - _Color: {r: 0.82436323, g: 0.87291986, b: 0.915, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _UVTransform0: {r: 10, g: 0, b: 0, a: 0}
     - _UVTransform1: {r: 0, g: 10, b: 0, a: 0}

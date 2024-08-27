@@ -7,31 +7,28 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mirror
+  m_Name: flashlight glass
   m_Shader: {fileID: 4800000, guid: 075dbc3edcecd8747919086245d79325, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _ALPHABLEND_ON
   - _LIGHTMAPSPECULAR
-  - _NORMALMAP
   m_InvalidKeywords:
   - _BAKERY_NONE
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
-  m_LockedProperties: _LightmapSpecularMaxSmoothness
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - BlueNoise:
-        m_Texture: {fileID: 2800000, guid: f1823388165341d4aa34e1e2cabf8e46, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 2c4e4e690f17bc24f941d396298651be, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DFG:
@@ -54,15 +51,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MOESMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MaskMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -96,73 +85,36 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - FoldoutMainEnd_AdditionalSettings: 0
-    - FoldoutMainEnd_Properties: 0
-    - FoldoutMainEnd_RenderingOptions: 0
-    - FoldoutMainStart_AdditionalSettings: 1
-    - FoldoutMainStart_PostProcess: 0
-    - FoldoutMainStart_Properties: 1
-    - FoldoutMainStart_RenderingOptions: 1
-    - _Aces: 0
-    - _AlphaToMask: 0
     - _AlphaToMaskMode: 0
-    - _BAKERY_MONOSH: 0
-    - _BICUBIC_LIGHTMAP: 0
     - _Bakery: 0
-    - _BakeryAlphaDither: 0
     - _BakeryVertexLM: 0
     - _BumpScale: 1
     - _BumpShadowHardness: 50
     - _BumpShadowHeightScale: 0.2
-    - _ColorGradingTone: 0
-    - _Contrast: 1
-    - _Cull: 2
     - _CullMode: 2
     - _Cutoff: 0.5
-    - _CutoutSharpness: 0.0001
-    - _Decalery: 0
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _Emission: 0
+    - _DstBlend: 10
     - _ExposureOcclusion: 0.2
-    - _GEOMETRICSPECULAR_AA: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.4
+    - _Glossiness: 0.1
     - _GlossyReflections: 1
-    - _LIGHTMAPPED_SPECULAR: 0
     - _LTCGI: 0
-    - _LightmapExposure: 1
     - _LightmapSpecular: 1
     - _LightmapSpecularMaxSmoothness: 0.9
-    - _Metallic: 0
-    - _MetallicScale: 0
-    - _Mode: 0
-    - _Neutral: 0
+    - _Metallic: 1
+    - _Mode: 2
     - _NormalMapShadows: 0
-    - _OcclusionScale: 0
     - _OcclusionStrength: 1
-    - _OffsetFactor: 0
-    - _OffsetUnits: 0
     - _Parallax: 0.02
-    - _Roughness: 0.468
-    - _Saturation: 1
-    - _SmoothnessScale: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpecularOcclusion: 1
-    - _SrcBlend: 1
-    - _TriplanarBlend: 5
-    - _TriplanarScale: 5
+    - _SrcBlend: 5
     - _UVSec: 0
-    - _ZTest: 4
-    - _ZWrite: 1
-    - __LitShaderVariant: 0
+    - _ZWrite: 0
     - _specularAntiAliasingThreshold: 0.25
     - _specularAntiAliasingVariance: 0.15
     m_Colors:
-    - _Color: {r: 0.099, g: 0.099, b: 0.099, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
-    - _UVTransform0: {r: 10, g: 0, b: 0, a: 0}
-    - _UVTransform1: {r: 0, g: 10, b: 0, a: 0}
-    - _UVTransform2: {r: 0, g: 0, b: 10, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.6}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
