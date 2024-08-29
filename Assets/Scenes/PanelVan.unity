@@ -644,6 +644,37 @@ LightProbeGroup:
   - {x: -2, y: 8.519012, z: 5.0974383}
   - {x: -2, y: 8.519012, z: 7.3418794}
   m_Dering: 1
+--- !u!1 &203919287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203919288}
+  m_Layer: 13
+  m_Name: exact grip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &203919288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203919287}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1651321832}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &313455080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2093,21 +2124,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 23
       objectReference: {fileID: 0}
-    - target: {fileID: 4080964474349803972, guid: fee86c269695b2446a8251cb1a5a52a6,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4080964474349803972, guid: fee86c269695b2446a8251cb1a5a52a6,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4080964474349803972, guid: fee86c269695b2446a8251cb1a5a52a6,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.1
-      objectReference: {fileID: 0}
     - target: {fileID: 5733911823876726600, guid: fee86c269695b2446a8251cb1a5a52a6,
         type: 3}
       propertyPath: m_Lightmapping
@@ -2903,15 +2919,15 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.25
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
-  MinDistance: 0.25
+  DopplerLevel: 0
+  MinDistance: 0.5
   MaxDistance: 10
   Pan2D: 0
   rolloffMode: 0
@@ -3211,6 +3227,10 @@ PrefabInstance:
     - {fileID: 6015750875948270257, guid: c06f34303c838054880b5f6e628a626f, type: 3}
     - {fileID: -254700886012448593, guid: c06f34303c838054880b5f6e628a626f, type: 3}
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: c06f34303c838054880b5f6e628a626f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 203919288}
     - targetCorrespondingSourceObject: {fileID: 584124850874557052, guid: c06f34303c838054880b5f6e628a626f,
         type: 3}
       insertIndex: -1
@@ -3333,9 +3353,9 @@ MonoBehaviour:
   MomentumTransferMethod: 0
   DisallowTheft: 0
   ExactGun: {fileID: 0}
-  ExactGrip: {fileID: 0}
-  allowManipulationWhenEquipped: 0
-  orientation: 0
+  ExactGrip: {fileID: 203919288}
+  allowManipulationWhenEquipped: 1
+  orientation: 1
   AutoHold: 1
   InteractionText: 
   UseText: Use
@@ -4054,7 +4074,7 @@ MonoBehaviour:
   spawnOrder: 2
   spawnOrientation: 0
   ReferenceCamera: {fileID: 1069902874}
-  RespawnHeightY: -100
+  RespawnHeightY: -10
   ObjectBehaviourAtRespawnHeight: 0
   ForbidUserPortals: 0
   interactThruLayers: 0
@@ -4077,9 +4097,9 @@ MonoBehaviour:
   useAssignedLayers: 0
   DynamicPrefabs: []
   DynamicMaterials:
+  - {fileID: 2100000, guid: 84aa2f869b406b34789bdbaa389c8a31, type: 2}
   - {fileID: 2100000, guid: 4518f3212ca7c0f42aa6fde3d3ffb0b3, type: 2}
   - {fileID: 2100000, guid: 6e2c7fef8af952c419b9a55861b3fbb2, type: 2}
-  - {fileID: 2100000, guid: 84aa2f869b406b34789bdbaa389c8a31, type: 2}
   - {fileID: 2100000, guid: ab8b931f92b39fb46a7e7b198f4a87b6, type: 2}
   - {fileID: 2100000, guid: 4c1510ef028607440a6d560011527589, type: 2}
   - {fileID: 2100000, guid: c815f7613a04b724089c206857e57c6a, type: 2}

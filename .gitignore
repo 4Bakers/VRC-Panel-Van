@@ -1,3 +1,5 @@
+*.pkf
+*.xmp
 !com.vrchat.core.*/
 *.blend1
 Assets/Bakery/
