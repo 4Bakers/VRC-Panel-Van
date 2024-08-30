@@ -17,60 +17,50 @@ MonoBehaviour:
   udonAssembly: ".data_start\r\n\r\n    .export lighting\r\n    .export renderers\r\n   
     .export material_void\r\n    .export materials\r\n    .export flicker_count\r\n   
     .export flicker_gap\r\n    .export flicker_length\r\n    .export AudioSource\r\n   
-    .export lightmaps\r\n    \r\n    __index_0: %SystemInt32, null\r\n    __condition_0:
-    %SystemBoolean, null\r\n    __object_0: %SystemObject, null\r\n    __result_0:
-    %SystemBoolean, null\r\n    __object_1: %SystemObject, null\r\n    __result_1:
-    %SystemBoolean, null\r\n    __instance_3: %UnityEngineMeshRenderer, null\r\n   
-    __value_0: %UnityEngineMaterial, null\r\n    __instance_1: %UnityEngineRendererArray,
-    null\r\n    __Int32_0: %SystemInt32, null\r\n    __instance_2: %UnityEngineMaterialArray,
-    null\r\n    __Int32_1: %SystemInt32, null\r\n    __start_0: %SystemInt32, null\r\n   
-    __end_0: %SystemInt32, null\r\n    __step_0: %SystemInt32, null\r\n    __instance_0:
-    %UnityEngineRendererArray, null\r\n    __instance_4: %UnityEngineTransform, this\r\n   
-    __value_1: %UnityEngineVector3, null\r\n    __instance_5: %VRCUdonUdonBehaviour,
-    this\r\n    __eventName_0: %SystemString, null\r\n    __String_0: %SystemString,
-    null\r\n    __index_1: %SystemInt32, null\r\n    __condition_1: %SystemBoolean,
-    null\r\n    __object_2: %SystemObject, null\r\n    __result_2: %SystemBoolean,
-    null\r\n    __instance_8: %UnityEngineMeshRenderer, null\r\n    __value_2: %UnityEngineMaterial,
-    null\r\n    __instance_7: %UnityEngineRendererArray, null\r\n    __Int32_2: %SystemInt32,
-    null\r\n    __start_1: %SystemInt32, null\r\n    __end_1: %SystemInt32, null\r\n   
-    __step_1: %SystemInt32, null\r\n    __instance_6: %UnityEngineRendererArray,
-    null\r\n    __instance_9: %UnityEngineTransform, this\r\n    __value_3: %UnityEngineVector3,
-    null\r\n    __Boolean_0: %SystemBoolean, null\r\n    __Int32_3: %SystemInt32,
-    null\r\n    __Int32_4: %SystemInt32, null\r\n    __instance_B: %UnityEngineMaterialArray,
+    \r\n    __index_0: %SystemInt32, null\r\n    __condition_0: %SystemBoolean, null\r\n   
+    __object_0: %SystemObject, null\r\n    __result_0: %SystemBoolean, null\r\n   
+    __object_1: %SystemObject, null\r\n    __result_1: %SystemBoolean, null\r\n   
+    __instance_3: %UnityEngineMeshRenderer, null\r\n    __value_0: %UnityEngineMaterial,
+    null\r\n    __instance_1: %UnityEngineRendererArray, null\r\n    __Int32_0: %SystemInt32,
+    null\r\n    __instance_2: %UnityEngineMaterialArray, null\r\n    __Int32_1: %SystemInt32,
+    null\r\n    __start_0: %SystemInt32, null\r\n    __end_0: %SystemInt32, null\r\n   
+    __step_0: %SystemInt32, null\r\n    __instance_0: %UnityEngineRendererArray,
+    null\r\n    __instance_4: %UnityEngineTransform, this\r\n    __value_1: %UnityEngineVector3,
+    null\r\n    __instance_5: %VRCUdonUdonBehaviour, this\r\n    __eventName_0: %SystemString,
+    null\r\n    __String_0: %SystemString, null\r\n    __index_1: %SystemInt32, null\r\n   
+    __condition_1: %SystemBoolean, null\r\n    __object_2: %SystemObject, null\r\n   
+    __result_2: %SystemBoolean, null\r\n    __instance_8: %UnityEngineMeshRenderer,
+    null\r\n    __value_2: %UnityEngineMaterial, null\r\n    __instance_7: %UnityEngineRendererArray,
+    null\r\n    __Int32_2: %SystemInt32, null\r\n    __start_1: %SystemInt32, null\r\n   
+    __end_1: %SystemInt32, null\r\n    __step_1: %SystemInt32, null\r\n    __instance_6:
+    %UnityEngineRendererArray, null\r\n    __instance_9: %UnityEngineTransform, this\r\n   
+    __value_3: %UnityEngineVector3, null\r\n    __Boolean_0: %SystemBoolean, null\r\n   
+    __Int32_3: %SystemInt32, null\r\n    __Int32_4: %SystemInt32, null\r\n    __instance_A:
+    %UnityEngineRendererArray, null\r\n    __instance_B: %UnityEngineMaterialArray,
     null\r\n    __message_0: %SystemObject, null\r\n    __String_1: %SystemString,
-    null\r\n    __Boolean_1: %SystemBoolean, null\r\n    __Int32_5: %SystemInt32,
-    null\r\n    __Int32_6: %SystemInt32, null\r\n    __instance_A: %UnityEngineRendererArray,
-    null\r\n    __instance_C: %SystemInt32Array, null\r\n    __message_1: %SystemObject,
-    null\r\n    __String_2: %SystemString, null\r\n    __index_2: %SystemInt32, null\r\n   
-    __condition_2: %SystemBoolean, null\r\n    __instance_E: %SystemInt32Array, null\r\n   
-    __value_4: %SystemObject, null\r\n    __index_3: %SystemInt32, null\r\n    __instance_F:
-    %UnityEngineMeshRenderer, null\r\n    __instance_10: %UnityEngineRendererArray,
-    null\r\n    __Int32_7: %SystemInt32, null\r\n    __start_2: %SystemInt32, null\r\n   
-    __end_2: %SystemInt32, null\r\n    __step_2: %SystemInt32, null\r\n    __instance_D:
-    %SystemInt32Array, null\r\n    __value_5: %SystemSingle, null\r\n    __minInclusive_0:
-    %SystemSingle, null\r\n    __maxInclusive_0: %SystemSingle, null\r\n    __instance_11:
-    %UnityEngineVector2, null\r\n    __instance_12: %UnityEngineVector2, null\r\n   
-    __instance_13: %VRCUdonUdonBehaviour, this\r\n    __target_0: %VRCUdonCommonInterfacesNetworkEventTarget,
-    null\r\n    __eventName_1: %SystemString, null\r\n    __Boolean_2: %SystemBoolean,
-    null\r\n    __Int32_8: %SystemInt32, null\r\n    __Int32_9: %SystemInt32, null\r\n   
-    __instance_14: %VRCUdonUdonBehaviour, this\r\n    __eventName_2: %SystemString,
-    null\r\n    __Int32_A: %SystemInt32, null\r\n    __Int32_B: %SystemInt32, null\r\n   
-    __instance_15: %VRCUdonUdonBehaviour, this\r\n    __eventName_3: %SystemString,
-    null\r\n    __delaySeconds_0: %SystemSingle, null\r\n    __eventTiming_0: %VRCUdonCommonEnumsEventTiming,
+    null\r\n    __value_4: %SystemSingle, null\r\n    __minInclusive_0: %SystemSingle,
+    null\r\n    __maxInclusive_0: %SystemSingle, null\r\n    __instance_C: %UnityEngineVector2,
+    null\r\n    __instance_D: %UnityEngineVector2, null\r\n    __instance_E: %VRCUdonUdonBehaviour,
+    this\r\n    __target_0: %VRCUdonCommonInterfacesNetworkEventTarget, null\r\n   
+    __eventName_1: %SystemString, null\r\n    __Boolean_1: %SystemBoolean, null\r\n   
+    __Int32_5: %SystemInt32, null\r\n    __Int32_6: %SystemInt32, null\r\n    __instance_F:
+    %VRCUdonUdonBehaviour, this\r\n    __eventName_2: %SystemString, null\r\n   
+    __Int32_7: %SystemInt32, null\r\n    __Int32_8: %SystemInt32, null\r\n    __instance_10:
+    %VRCUdonUdonBehaviour, this\r\n    __eventName_3: %SystemString, null\r\n   
+    __delaySeconds_0: %SystemSingle, null\r\n    __eventTiming_0: %VRCUdonCommonEnumsEventTiming,
     null\r\n    __minInclusive_1: %SystemSingle, null\r\n    __maxInclusive_1: %SystemSingle,
-    null\r\n    __instance_16: %UnityEngineVector2, null\r\n    __instance_17: %UnityEngineVector2,
-    null\r\n    __instance_18: %VRCUdonUdonBehaviour, this\r\n    __eventName_4:
-    %SystemString, null\r\n    __instance_19: %VRCUdonUdonBehaviour, this\r\n   
+    null\r\n    __instance_11: %UnityEngineVector2, null\r\n    __instance_12: %UnityEngineVector2,
+    null\r\n    __instance_13: %VRCUdonUdonBehaviour, this\r\n    __eventName_4:
+    %SystemString, null\r\n    __instance_14: %VRCUdonUdonBehaviour, this\r\n   
     __eventName_5: %SystemString, null\r\n    __delayFrames_0: %SystemInt32, null\r\n   
     __eventTiming_1: %VRCUdonCommonEnumsEventTiming, null\r\n    __f_0: %SystemSingle,
     null\r\n    __minInclusive_2: %SystemSingle, null\r\n    __maxInclusive_2: %SystemSingle,
-    null\r\n    __instance_1A: %UnityEngineVector2, null\r\n    __instance_1B: %UnityEngineVector2,
+    null\r\n    __instance_15: %UnityEngineVector2, null\r\n    __instance_16: %UnityEngineVector2,
     null\r\n    lighting: %UnityEngineTransform, this\r\n    renderers: %UnityEngineRendererArray,
     null\r\n    material_void: %UnityEngineMaterial, null\r\n    materials: %UnityEngineMaterialArray,
     null\r\n    flicker_count: %UnityEngineVector2, null\r\n    _remaining_flickers:
     %SystemInt32, null\r\n    flicker_gap: %UnityEngineVector2, null\r\n    flicker_length:
-    %UnityEngineVector2, null\r\n    AudioSource: %VRCUdonUdonBehaviour, this\r\n   
-    lightmaps: %SystemInt32Array, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    %UnityEngineVector2, null\r\n    AudioSource: %VRCUdonUdonBehaviour, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
     .export True\r\n    \r\n    True:\r\n    \r\n        PUSH, renderers\r\n       
     PUSH, __instance_0\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
     __end_0\r\n        EXTERN, \"UnityEngineRendererArray.__get_Length__SystemInt32\"\r\n       
@@ -137,62 +127,37 @@ MonoBehaviour:
     PUSH, __Boolean_0\r\n        JUMP_IF_FALSE, 0x00000564\r\n        PUSH, __String_1\r\n       
     PUSH, __message_0\r\n        COPY\r\n        PUSH, __message_0\r\n        EXTERN,
     \"UnityEngineDebug.__LogError__SystemObject__SystemVoid\"\r\n        JUMP, 0x00000564\r\n       
-    PUSH, renderers\r\n        PUSH, __instance_A\r\n        COPY\r\n        PUSH,
-    __Int32_3\r\n        PUSH, __Int32_5\r\n        COPY\r\n        PUSH, lightmaps\r\n       
-    PUSH, __instance_C\r\n        COPY\r\n        PUSH, __instance_C\r\n        PUSH,
-    __Int32_6\r\n        EXTERN, \"SystemInt32Array.__get_Length__SystemInt32\"\r\n       
-    PUSH, __Int32_3\r\n        PUSH, __Int32_6\r\n        PUSH, __Boolean_1\r\n       
-    EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
-    PUSH, __Boolean_1\r\n        JUMP_IF_FALSE, 0x00000614\r\n        PUSH, __String_2\r\n       
-    PUSH, __message_1\r\n        COPY\r\n        PUSH, __message_1\r\n        EXTERN,
-    \"UnityEngineDebug.__LogError__SystemObject__SystemVoid\"\r\n        JUMP, 0x00000614\r\n       
-    PUSH, lightmaps\r\n        PUSH, __instance_D\r\n        COPY\r\n        PUSH,
-    __instance_D\r\n        PUSH, __end_2\r\n        EXTERN, \"SystemInt32Array.__get_Length__SystemInt32\"\r\n       
-    PUSH, __start_2\r\n        PUSH, __index_2\r\n        COPY\r\n        PUSH, __index_2\r\n       
-    PUSH, __end_2\r\n        PUSH, __condition_2\r\n        EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
-    PUSH, __condition_2\r\n        JUMP_IF_FALSE, 0x0000077C\r\n        PUSH, lightmaps\r\n       
-    PUSH, __instance_E\r\n        COPY\r\n        PUSH, renderers\r\n        PUSH,
-    __instance_10\r\n        COPY\r\n        PUSH, lightmaps\r\n        PUSH, __instance_D\r\n       
-    COPY\r\n        PUSH, __index_2\r\n        PUSH, __Int32_7\r\n        COPY\r\n       
-    PUSH, __instance_10\r\n        PUSH, __Int32_7\r\n        PUSH, __instance_F\r\n       
-    EXTERN, \"UnityEngineRendererArray.__Get__SystemInt32__UnityEngineRenderer\"\r\n       
-    PUSH, __instance_F\r\n        PUSH, __value_4\r\n        EXTERN, \"UnityEngineMeshRenderer.__get_lightmapIndex__SystemInt32\"\r\n       
-    PUSH, lightmaps\r\n        PUSH, __instance_D\r\n        COPY\r\n        PUSH,
-    __index_2\r\n        PUSH, __index_3\r\n        COPY\r\n        PUSH, __instance_E\r\n       
-    PUSH, __value_4\r\n        PUSH, __index_3\r\n        EXTERN, \"SystemInt32Array.__SetValue__SystemObject_SystemInt32__SystemVoid\"\r\n       
-    PUSH, __index_2\r\n        PUSH, __step_2\r\n        PUSH, __index_2\r\n       
-    EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
-    JUMP, 0x00000654\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export MultiFlicker\r\n   
-    \r\n    MultiFlicker:\r\n    \r\n        PUSH, flicker_count\r\n        PUSH,
-    __minInclusive_0\r\n        EXTERN, \"UnityEngineVector2.__get_x__SystemSingle\"\r\n       
-    PUSH, flicker_count\r\n        PUSH, __maxInclusive_0\r\n        EXTERN, \"UnityEngineVector2.__get_y__SystemSingle\"\r\n       
-    PUSH, __minInclusive_0\r\n        PUSH, __maxInclusive_0\r\n        PUSH, __value_5\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export MultiFlicker\r\n    \r\n    MultiFlicker:\r\n   
+    \r\n        PUSH, flicker_count\r\n        PUSH, __minInclusive_0\r\n       
+    EXTERN, \"UnityEngineVector2.__get_x__SystemSingle\"\r\n        PUSH, flicker_count\r\n       
+    PUSH, __maxInclusive_0\r\n        EXTERN, \"UnityEngineVector2.__get_y__SystemSingle\"\r\n       
+    PUSH, __minInclusive_0\r\n        PUSH, __maxInclusive_0\r\n        PUSH, __value_4\r\n       
     EXTERN, \"UnityEngineRandom.__Range__SystemSingle_SystemSingle__SystemSingle\"\r\n       
-    PUSH, __value_5\r\n        PUSH, _remaining_flickers\r\n        EXTERN, \"SystemConvert.__ToInt32__SystemSingle__SystemInt32\"\r\n       
-    PUSH, __instance_13\r\n        PUSH, __target_0\r\n        PUSH, __eventName_1\r\n       
+    PUSH, __value_4\r\n        PUSH, _remaining_flickers\r\n        EXTERN, \"SystemConvert.__ToInt32__SystemSingle__SystemInt32\"\r\n       
+    PUSH, __instance_E\r\n        PUSH, __target_0\r\n        PUSH, __eventName_1\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export FlickerLoop\r\n    \r\n    FlickerLoop:\r\n   
-    \r\n        PUSH, _remaining_flickers\r\n        PUSH, __Int32_9\r\n        PUSH,
-    __Boolean_2\r\n        EXTERN, \"SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
-    PUSH, __Boolean_2\r\n        JUMP_IF_FALSE, 0x000008FC\r\n        PUSH, __instance_14\r\n       
+    \r\n        PUSH, _remaining_flickers\r\n        PUSH, __Int32_6\r\n        PUSH,
+    __Boolean_1\r\n        EXTERN, \"SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
+    PUSH, __Boolean_1\r\n        JUMP_IF_FALSE, 0x000006E4\r\n        PUSH, __instance_F\r\n       
     PUSH, __eventName_2\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
-    PUSH, _remaining_flickers\r\n        PUSH, __Int32_B\r\n        PUSH, _remaining_flickers\r\n       
+    PUSH, _remaining_flickers\r\n        PUSH, __Int32_8\r\n        PUSH, _remaining_flickers\r\n       
     EXTERN, \"SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32\"\r\n       
     PUSH, flicker_gap\r\n        PUSH, __minInclusive_1\r\n        EXTERN, \"UnityEngineVector2.__get_x__SystemSingle\"\r\n       
     PUSH, flicker_gap\r\n        PUSH, __maxInclusive_1\r\n        EXTERN, \"UnityEngineVector2.__get_y__SystemSingle\"\r\n       
     PUSH, __minInclusive_1\r\n        PUSH, __maxInclusive_1\r\n        PUSH, __delaySeconds_0\r\n       
     EXTERN, \"UnityEngineRandom.__Range__SystemSingle_SystemSingle__SystemSingle\"\r\n       
-    PUSH, __instance_15\r\n        PUSH, __eventName_3\r\n        PUSH, __delaySeconds_0\r\n       
+    PUSH, __instance_10\r\n        PUSH, __eventName_3\r\n        PUSH, __delaySeconds_0\r\n       
     PUSH, __eventTiming_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n       
-    JUMP, 0x000008FC\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export Flicker\r\n   
-    \r\n    Flicker:\r\n    \r\n        PUSH, __instance_18\r\n        PUSH, __eventName_4\r\n       
+    JUMP, 0x000006E4\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export Flicker\r\n   
+    \r\n    Flicker:\r\n    \r\n        PUSH, __instance_13\r\n        PUSH, __eventName_4\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
     PUSH, flicker_length\r\n        PUSH, __minInclusive_2\r\n        EXTERN, \"UnityEngineVector2.__get_x__SystemSingle\"\r\n       
     PUSH, flicker_length\r\n        PUSH, __maxInclusive_2\r\n        EXTERN, \"UnityEngineVector2.__get_y__SystemSingle\"\r\n       
     PUSH, __minInclusive_2\r\n        PUSH, __maxInclusive_2\r\n        PUSH, __f_0\r\n       
     EXTERN, \"UnityEngineRandom.__Range__SystemSingle_SystemSingle__SystemSingle\"\r\n       
     PUSH, __f_0\r\n        PUSH, __delayFrames_0\r\n        EXTERN, \"UnityEngineMathf.__RoundToInt__SystemSingle__SystemInt32\"\r\n       
-    PUSH, __instance_19\r\n        PUSH, __eventName_5\r\n        PUSH, __delayFrames_0\r\n       
+    PUSH, __instance_14\r\n        PUSH, __eventName_5\r\n        PUSH, __delayFrames_0\r\n       
     PUSH, __eventTiming_1\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
@@ -419,7 +384,7 @@ MonoBehaviour:
         stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: UnityEngineDebug.__LogError__SystemObject__SystemVoid
       uid: a06e5f3d-4bbb-47b4-96af-02fd18dec0f0
-      position: {x: 1494.9565, y: -388.1305}
+      position: {x: 1149.8447, y: -132.01785}
       nodeUIDs:
       - e3443ef5-8de8-4afd-8d69-0b89f8e3a062|0
       flowUIDs: []
@@ -428,7 +393,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Const_SystemString
       uid: e3443ef5-8de8-4afd-8d69-0b89f8e3a062
-      position: {x: 1261.9565, y: -346.13043}
+      position: {x: 916.84485, y: -90.0178}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -438,7 +403,7 @@ MonoBehaviour:
           of renderers[] and materials[] do not match!
     - fullName: Get_Variable
       uid: 559a5a70-3d34-4133-8fcf-4abb93645cdf
-      position: {x: 397.6522, y: -481.95648}
+      position: {x: 391.9165, y: -334.47507}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -449,7 +414,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Get_Variable
       uid: 01c5ff8f-f3b0-461a-8406-ea9d48b24ee5
-      position: {x: 407.6522, y: -383.95648}
+      position: {x: 401.9165, y: -236.47507}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -460,14 +425,14 @@ MonoBehaviour:
         stringValue: 
     - fullName: Event_Start
       uid: f2fce69a-41a2-4c99-995d-09f525d7fee6
-      position: {x: 757.34784, y: -536.26086}
+      position: {x: 750.9165, y: -388.47507}
       nodeUIDs: []
       flowUIDs:
       - e1c749e0-78f7-406e-b522-1cbdc733ef9b
       nodeValues: []
     - fullName: UnityEngineRendererArray.__get_Length__SystemInt32
       uid: cfbb97ff-916e-4333-a46b-10f71412336b
-      position: {x: 588.6522, y: -488.95648}
+      position: {x: 582.9165, y: -341.47507}
       nodeUIDs:
       - 559a5a70-3d34-4133-8fcf-4abb93645cdf|0
       flowUIDs: []
@@ -476,7 +441,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineMaterialArray.__get_Length__SystemInt32
       uid: 7b42a5cc-59af-4980-951d-706096fec42b
-      position: {x: 583.6522, y: -368.95648}
+      position: {x: 577.9165, y: -221.47507}
       nodeUIDs:
       - 01c5ff8f-f3b0-461a-8406-ea9d48b24ee5|0
       flowUIDs: []
@@ -485,7 +450,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean
       uid: 7b62fbb4-d028-499f-acaa-107c6b4f6a58
-      position: {x: 807.4783, y: -362.26086}
+      position: {x: 800.9165, y: -214.47507}
       nodeUIDs:
       - cfbb97ff-916e-4333-a46b-10f71412336b|0
       - 7b42a5cc-59af-4980-951d-706096fec42b|0
@@ -497,7 +462,7 @@ MonoBehaviour:
         stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: Branch
       uid: 8de250c4-4391-4bbb-9d5e-c8ef25e65c7a
-      position: {x: 1000.4783, y: -355.26086}
+      position: {x: 993.9165, y: -207.47507}
       nodeUIDs:
       - 7b62fbb4-d028-499f-acaa-107c6b4f6a58|0
       flowUIDs:
@@ -1125,189 +1090,18 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
-    - fullName: UnityEngineMeshRenderer.__get_lightmapIndex__SystemInt32
-      uid: ec85a274-a7f4-4306-886e-3c34e1750013
-      position: {x: 2412.414, y: -291.99997}
-      nodeUIDs:
-      - da5a91f7-c48c-4495-9f6e-9d75281c4f16|0
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
     - fullName: Block
       uid: e1c749e0-78f7-406e-b522-1cbdc733ef9b
-      position: {x: 876.34784, y: -538.26086}
+      position: {x: 869.9165, y: -390.47507}
       nodeUIDs: []
       flowUIDs:
       - 8de250c4-4391-4bbb-9d5e-c8ef25e65c7a
-      - ddc8a3de-8846-4e21-a228-b576140609e6
-      - 29cbf415-74cc-4b53-8cd6-e335cb0c173e
       nodeValues: []
-    - fullName: Variable_SystemInt32Array
-      uid: 6abd7d89-3590-45ff-a3d9-ec1ceb1d22d8
-      position: {x: 0, y: 0}
-      nodeUIDs:
-      - 
-      - 
-      - 
-      - 
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|lightmaps
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|True
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
-    - fullName: Get_Variable
-      uid: a36eab06-00eb-4d6d-81dd-cc56732cf114
-      position: {x: 414.21738, y: -255.86955}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|6abd7d89-3590-45ff-a3d9-ec1ceb1d22d8
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: SystemInt32Array.__get_Length__SystemInt32
-      uid: 3bbf33fa-43ac-4592-84e7-5751e64b45d8
-      position: {x: 581.47833, y: -257.13043}
-      nodeUIDs:
-      - a36eab06-00eb-4d6d-81dd-cc56732cf114|0
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean
-      uid: 0eb5bf64-0d02-41c8-9b70-365d1ebab9f3
-      position: {x: 803.95654, y: -244.99998}
-      nodeUIDs:
-      - cfbb97ff-916e-4333-a46b-10f71412336b|0
-      - 3bbf33fa-43ac-4592-84e7-5751e64b45d8|0
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
-    - fullName: Branch
-      uid: ddc8a3de-8846-4e21-a228-b576140609e6
-      position: {x: 998.86957, y: -237.26083}
-      nodeUIDs:
-      - 0eb5bf64-0d02-41c8-9b70-365d1ebab9f3|0
-      flowUIDs:
-      - eb81eb66-0bbd-4dc2-a79d-d8e6bbc6eca2
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
-    - fullName: Const_SystemString
-      uid: d0cbb408-4785-4d5b-972d-2972405c6099
-      position: {x: 1250.9131, y: -193.60873}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|lengths
-          of renderers[] and lightmaps[] do not match!
-    - fullName: UnityEngineDebug.__LogError__SystemObject__SystemVoid
-      uid: eb81eb66-0bbd-4dc2-a79d-d8e6bbc6eca2
-      position: {x: 1483.9131, y: -235.60872}
-      nodeUIDs:
-      - d0cbb408-4785-4d5b-972d-2972405c6099
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: SystemInt32Array.__SetValue__SystemObject_SystemInt32__SystemVoid
-      uid: 33d51bea-5772-45eb-bcb3-074ea2da2aa0
-      position: {x: 2658.501, y: -439.1947}
-      nodeUIDs:
-      - 8a7f5fcf-51e0-4e8e-a36d-0be215993f1d|0
-      - ec85a274-a7f4-4306-886e-3c34e1750013|0
-      - 29cbf415-74cc-4b53-8cd6-e335cb0c173e|0
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
-    - fullName: Get_Variable
-      uid: 8a7f5fcf-51e0-4e8e-a36d-0be215993f1d
-      position: {x: 1794.7826, y: -333.91302}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|6abd7d89-3590-45ff-a3d9-ec1ceb1d22d8
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: For
-      uid: 29cbf415-74cc-4b53-8cd6-e335cb0c173e
-      position: {x: 2194.7827, y: -483.91302}
-      nodeUIDs:
-      - 
-      - 2e8c421f-93bc-4787-8c0a-0b117947828d|0
-      - 
-      flowUIDs:
-      - 33d51bea-5772-45eb-bcb3-074ea2da2aa0
-      - 
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|1
-    - fullName: SystemInt32Array.__get_Length__SystemInt32
-      uid: 2e8c421f-93bc-4787-8c0a-0b117947828d
-      position: {x: 2014.7826, y: -373.91302}
-      nodeUIDs:
-      - 8a7f5fcf-51e0-4e8e-a36d-0be215993f1d|0
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: Get_Variable
-      uid: 55160772-1a7c-4269-b7e6-cdd82dc57317
-      position: {x: 1934.5032, y: -244.51424}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|cd0bf1d8-eb2e-483a-9a2e-3d8c41d65523
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: UnityEngineRendererArray.__Get__SystemInt32__UnityEngineRenderer
-      uid: da5a91f7-c48c-4495-9f6e-9d75281c4f16
-      position: {x: 2233.1738, y: -303.19467}
-      nodeUIDs:
-      - 55160772-1a7c-4269-b7e6-cdd82dc57317|0
-      - 29cbf415-74cc-4b53-8cd6-e335cb0c173e|0
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     updateOrder: 0
   graphElementData:
   - type: 2
     uid: 25bb5e4f-f7da-4035-bfa5-ce2f3533503c
-    jsonData: '{"uid":"25bb5e4f-f7da-4035-bfa5-ce2f3533503c","layout":{"serializedVersion":"2","x":373.0,"y":-597.0,"width":1278.0,"height":492.0},"containedElements":["7b62fbb4-d028-499f-acaa-107c6b4f6a58","7b42a5cc-59af-4980-951d-706096fec42b","cfbb97ff-916e-4333-a46b-10f71412336b","01c5ff8f-f3b0-461a-8406-ea9d48b24ee5","559a5a70-3d34-4133-8fcf-4abb93645cdf","f2fce69a-41a2-4c99-995d-09f525d7fee6","e3443ef5-8de8-4afd-8d69-0b89f8e3a062","a06e5f3d-4bbb-47b4-96af-02fd18dec0f0","8de250c4-4391-4bbb-9d5e-c8ef25e65c7a","e1c749e0-78f7-406e-b522-1cbdc733ef9b","a36eab06-00eb-4d6d-81dd-cc56732cf114","3bbf33fa-43ac-4592-84e7-5751e64b45d8","0eb5bf64-0d02-41c8-9b70-365d1ebab9f3","ddc8a3de-8846-4e21-a228-b576140609e6","d0cbb408-4785-4d5b-972d-2972405c6099","eb81eb66-0bbd-4dc2-a79d-d8e6bbc6eca2"],"title":"Array
+    jsonData: '{"uid":"25bb5e4f-f7da-4035-bfa5-ce2f3533503c","layout":{"serializedVersion":"2","x":367.0,"y":-449.0,"width":939.0,"height":469.0},"containedElements":["7b62fbb4-d028-499f-acaa-107c6b4f6a58","7b42a5cc-59af-4980-951d-706096fec42b","cfbb97ff-916e-4333-a46b-10f71412336b","01c5ff8f-f3b0-461a-8406-ea9d48b24ee5","559a5a70-3d34-4133-8fcf-4abb93645cdf","f2fce69a-41a2-4c99-995d-09f525d7fee6","e3443ef5-8de8-4afd-8d69-0b89f8e3a062","a06e5f3d-4bbb-47b4-96af-02fd18dec0f0","8de250c4-4391-4bbb-9d5e-c8ef25e65c7a","e1c749e0-78f7-406e-b522-1cbdc733ef9b"],"title":"Array
       Length Error Handling","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
   - type: 2
     uid: a6672362-6f6c-4462-be6c-852e82f31ec5
@@ -1329,9 +1123,5 @@ MonoBehaviour:
     uid: 9782f6d7-0995-463f-ac72-9544136af9f7
     jsonData: '{"uid":"9782f6d7-0995-463f-ac72-9544136af9f7","layout":{"serializedVersion":"2","x":84.0,"y":1889.0,"width":1150.0,"height":409.0},"containedElements":["4df53d57-d500-407a-a11b-83e02fb3fc35","1d39fcc2-387c-4397-b57d-9f08f45e0b59","afaba97c-6dbd-419f-93b0-b52498265f43","2d2ddffc-864d-4ccc-b08f-70e1165ca37b","65f6c9b4-bd4c-4fc2-a4cc-93af5ba3c690","952af3b2-380f-40ef-97f7-e260c412a01e","f90fc700-cd9f-4157-abca-c99eb650feb0","e92d38f9-21fd-4279-bfb4-af7239cba0d0"],"title":"The
       Actual Flicker","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
-  - type: 2
-    uid: b6e778a3-f3b3-421b-a3cf-0dfaf3b2492f
-    jsonData: '{"uid":"b6e778a3-f3b3-421b-a3cf-0dfaf3b2492f","layout":{"serializedVersion":"2","x":1770.0001220703125,"y":-542.9999389648438,"width":1053.0,"height":406.0},"containedElements":["da5a91f7-c48c-4495-9f6e-9d75281c4f16","55160772-1a7c-4269-b7e6-cdd82dc57317","2e8c421f-93bc-4787-8c0a-0b117947828d","29cbf415-74cc-4b53-8cd6-e335cb0c173e","8a7f5fcf-51e0-4e8e-a36d-0be215993f1d","33d51bea-5772-45eb-bcb3-074ea2da2aa0","ec85a274-a7f4-4306-886e-3c34e1750013"],"title":"Pupulate
-      Lightmap Index Array","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
   version: 1.0.0
   showAssembly: 0
