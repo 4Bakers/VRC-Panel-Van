@@ -127,7 +127,7 @@ MonoBehaviour:
     PUSH, __Boolean_0\r\n        JUMP_IF_FALSE, 0x00000564\r\n        PUSH, __String_1\r\n       
     PUSH, __message_0\r\n        COPY\r\n        PUSH, __message_0\r\n        EXTERN,
     \"UnityEngineDebug.__LogError__SystemObject__SystemVoid\"\r\n        JUMP, 0x00000564\r\n       
-    JUMP, 0xFFFFFFFC\r\n    \r\n    .export MultiFlicker\r\n    \r\n    MultiFlicker:\r\n   
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export Activate\r\n    \r\n    Activate:\r\n   
     \r\n        PUSH, flicker_count\r\n        PUSH, __minInclusive_0\r\n       
     EXTERN, \"UnityEngineVector2.__get_x__SystemSingle\"\r\n        PUSH, flicker_count\r\n       
     PUSH, __maxInclusive_0\r\n        EXTERN, \"UnityEngineVector2.__get_y__SystemSingle\"\r\n       
@@ -600,7 +600,7 @@ MonoBehaviour:
       - c62f4435-0c55-45f3-9329-2f45a10db42c
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|MultiFlicker
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Activate
     - fullName: Variable_UnityEngineVector2
       uid: a6483ccc-84ab-4155-825c-fcc650c0b24e
       position: {x: 0, y: 0}
