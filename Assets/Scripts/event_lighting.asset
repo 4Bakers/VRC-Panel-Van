@@ -167,24 +167,30 @@ MonoBehaviour:
     nodes:
     - fullName: Event_Custom
       uid: 2aa0d82c-d6cc-4d6a-aa20-1aeee3ae612d
-      position: {x: 631, y: 256}
+      position: {x: 493, y: 245}
       nodeUIDs:
+      - 
       - 
       flowUIDs:
       - 9720723b-67fc-4d17-87ee-ccfdf10ea2e6
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: Event_Custom
       uid: e379f024-a429-40cb-b3f7-f3416ea4751a
-      position: {x: 619, y: 663}
+      position: {x: 536.87274, y: 672.1253}
       nodeUIDs:
+      - 
       - 
       flowUIDs:
       - 106e16b0-7567-4486-9212-793f49187506
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: Variable_UnityEngineTransform
       uid: a82d549b-5721-454b-a32c-ea00471b1f7e
       position: {x: 0, y: 0}
@@ -279,7 +285,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: a8f04c48-7a7b-4569-8ee1-8784ce3f9e85
-      position: {x: 442.3697, y: 401.96024}
+      position: {x: 476, y: 446}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -319,7 +325,7 @@ MonoBehaviour:
         stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: UnityEngineRendererArray.__get_Length__SystemInt32
       uid: 0e7a0d57-fff2-4c87-a121-1bc3a56bd4f7
-      position: {x: 662.3697, y: 361.96027}
+      position: {x: 665, y: 386}
       nodeUIDs:
       - a8f04c48-7a7b-4569-8ee1-8784ce3f9e85|0
       flowUIDs: []
@@ -593,14 +599,17 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":-20.0,"z":0.0}
     - fullName: Event_Custom
       uid: f0f72eae-67e2-4f9d-8930-394039d7b59a
-      position: {x: 957, y: 1073}
+      position: {x: 921, y: 1055}
       nodeUIDs:
+      - 
       - 
       flowUIDs:
       - c62f4435-0c55-45f3-9329-2f45a10db42c
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Activate
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: Variable_UnityEngineVector2
       uid: a6483ccc-84ab-4155-825c-fcc650c0b24e
       position: {x: 0, y: 0}
@@ -722,11 +731,14 @@ MonoBehaviour:
       position: {x: 438.833, y: 1442.3757}
       nodeUIDs:
       - 
+      - 
       flowUIDs:
       - dba2b8fc-5a3a-46d8-9448-7f188a85b56f
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|FlickerLoop
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid
       uid: c8e782f5-de39-4c5c-9d87-7746bd0745a8
       position: {x: 1446, y: 1133}
@@ -803,14 +815,17 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Event_Custom
       uid: 2d2ddffc-864d-4ccc-b08f-70e1165ca37b
-      position: {x: 456.91644, y: 1948.3738}
+      position: {x: 392.60004, y: 1952.6002}
       nodeUIDs:
+      - 
       - 
       flowUIDs:
       - afaba97c-6dbd-419f-93b0-b52498265f43
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Flicker
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: UnityEngineRandom.__Range__SystemSingle_SystemSingle__SystemSingle
       uid: 1d39fcc2-387c-4397-b57d-9f08f45e0b59
       position: {x: 512.26086, y: 2114.2173}
@@ -1083,7 +1098,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0}
     - fullName: UnityEngineMathf.__RoundToInt__SystemSingle__SystemInt32
       uid: e92d38f9-21fd-4279-bfb4-af7239cba0d0
-      position: {x: 753.2609, y: 2138.2173}
+      position: {x: 727.70013, y: 2140.3005}
       nodeUIDs:
       - 1d39fcc2-387c-4397-b57d-9f08f45e0b59|0
       flowUIDs: []
@@ -1105,15 +1120,15 @@ MonoBehaviour:
       Length Error Handling","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
   - type: 2
     uid: a6672362-6f6c-4462-be6c-852e82f31ec5
-    jsonData: '{"uid":"a6672362-6f6c-4462-be6c-852e82f31ec5","layout":{"serializedVersion":"2","x":417.0,"y":193.0,"width":1179.0,"height":395.0},"containedElements":["889f8702-b65e-47db-bb9c-0a707257c1b8","e76809f3-ca65-484d-b432-a02096d5ec5a","e86729a5-4eda-48ae-bea8-f66ba588d09e","79fb56ea-ba56-486e-ae2a-8bbdbcf97e6c","0e7a0d57-fff2-4c87-a121-1bc3a56bd4f7","e5037d35-aefc-4ccd-85d5-97727f2c4684","9720723b-67fc-4d17-87ee-ccfdf10ea2e6","a8f04c48-7a7b-4569-8ee1-8784ce3f9e85","2aa0d82c-d6cc-4d6a-aa20-1aeee3ae612d","216e91ab-bbaa-41bb-84e1-8c3be11f53f9"],"title":"Lights
+    jsonData: '{"uid":"a6672362-6f6c-4462-be6c-852e82f31ec5","layout":{"serializedVersion":"2","x":451.0,"y":186.0,"width":1145.0,"height":402.0},"containedElements":["889f8702-b65e-47db-bb9c-0a707257c1b8","e76809f3-ca65-484d-b432-a02096d5ec5a","e86729a5-4eda-48ae-bea8-f66ba588d09e","79fb56ea-ba56-486e-ae2a-8bbdbcf97e6c","0e7a0d57-fff2-4c87-a121-1bc3a56bd4f7","e5037d35-aefc-4ccd-85d5-97727f2c4684","9720723b-67fc-4d17-87ee-ccfdf10ea2e6","a8f04c48-7a7b-4569-8ee1-8784ce3f9e85","2aa0d82c-d6cc-4d6a-aa20-1aeee3ae612d","216e91ab-bbaa-41bb-84e1-8c3be11f53f9"],"title":"Lights
       On","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
   - type: 2
     uid: 708bf470-e86a-4a98-8889-71037a61bbb4
-    jsonData: '{"uid":"708bf470-e86a-4a98-8889-71037a61bbb4","layout":{"serializedVersion":"2","x":420.0,"y":604.0,"width":1159.0,"height":393.0},"containedElements":["5f170d63-413a-490b-823d-7d74195d61a0","106e16b0-7567-4486-9212-793f49187506","aba04a41-b7ec-4183-820b-f73782b2b538","009d8d49-75b9-4f0a-ac76-7cbef3d852c7","3a0f37e0-fb93-44f6-b232-1f43d8806a01","cf44c9c9-f295-4c72-83cb-13f802013988","d052a61c-47c7-4882-a641-743a95f97765","e379f024-a429-40cb-b3f7-f3416ea4751a"],"title":"Lights
+    jsonData: '{"uid":"708bf470-e86a-4a98-8889-71037a61bbb4","layout":{"serializedVersion":"2","x":420.0000305175781,"y":613.0,"width":1159.0,"height":384.0},"containedElements":["5f170d63-413a-490b-823d-7d74195d61a0","106e16b0-7567-4486-9212-793f49187506","aba04a41-b7ec-4183-820b-f73782b2b538","009d8d49-75b9-4f0a-ac76-7cbef3d852c7","3a0f37e0-fb93-44f6-b232-1f43d8806a01","cf44c9c9-f295-4c72-83cb-13f802013988","d052a61c-47c7-4882-a641-743a95f97765","e379f024-a429-40cb-b3f7-f3416ea4751a"],"title":"Lights
       Out","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
   - type: 2
     uid: 55c908b1-20b7-4f01-a568-ceefdfa3fa92
-    jsonData: '{"uid":"55c908b1-20b7-4f01-a568-ceefdfa3fa92","layout":{"serializedVersion":"2","x":375.0,"y":1014.0,"width":1344.0,"height":346.0},"containedElements":["c8e782f5-de39-4c5c-9d87-7746bd0745a8","468c6922-e751-48a4-b2fc-2ecaa48842d5","9a0a5dc4-8bbc-4f79-8052-c1321df4aef8","4a6eabf4-1822-4144-9b72-b56154fb7875","492b8d3f-ed29-43c4-be8a-8add8349c465","d322f0e7-4428-4a98-afab-33bfea962685","c62f4435-0c55-45f3-9329-2f45a10db42c","f0f72eae-67e2-4f9d-8930-394039d7b59a"],"title":"Init
+    jsonData: '{"uid":"55c908b1-20b7-4f01-a568-ceefdfa3fa92","layout":{"serializedVersion":"2","x":375.0,"y":996.0,"width":1344.0,"height":364.0},"containedElements":["c8e782f5-de39-4c5c-9d87-7746bd0745a8","468c6922-e751-48a4-b2fc-2ecaa48842d5","9a0a5dc4-8bbc-4f79-8052-c1321df4aef8","4a6eabf4-1822-4144-9b72-b56154fb7875","492b8d3f-ed29-43c4-be8a-8add8349c465","d322f0e7-4428-4a98-afab-33bfea962685","c62f4435-0c55-45f3-9329-2f45a10db42c","f0f72eae-67e2-4f9d-8930-394039d7b59a"],"title":"Init
       Flicker Count and Begin Loop","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
   - type: 2
     uid: 83a4ca10-3869-4119-b3a6-dccd1216b8f1
@@ -1121,7 +1136,7 @@ MonoBehaviour:
       Gap Timing Loop","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
   - type: 2
     uid: 9782f6d7-0995-463f-ac72-9544136af9f7
-    jsonData: '{"uid":"9782f6d7-0995-463f-ac72-9544136af9f7","layout":{"serializedVersion":"2","x":84.0,"y":1889.0,"width":1150.0,"height":409.0},"containedElements":["4df53d57-d500-407a-a11b-83e02fb3fc35","1d39fcc2-387c-4397-b57d-9f08f45e0b59","afaba97c-6dbd-419f-93b0-b52498265f43","2d2ddffc-864d-4ccc-b08f-70e1165ca37b","65f6c9b4-bd4c-4fc2-a4cc-93af5ba3c690","952af3b2-380f-40ef-97f7-e260c412a01e","f90fc700-cd9f-4157-abca-c99eb650feb0","e92d38f9-21fd-4279-bfb4-af7239cba0d0"],"title":"The
+    jsonData: '{"uid":"9782f6d7-0995-463f-ac72-9544136af9f7","layout":{"serializedVersion":"2","x":84.0,"y":1894.0001220703125,"width":1150.0,"height":404.0},"containedElements":["4df53d57-d500-407a-a11b-83e02fb3fc35","1d39fcc2-387c-4397-b57d-9f08f45e0b59","afaba97c-6dbd-419f-93b0-b52498265f43","2d2ddffc-864d-4ccc-b08f-70e1165ca37b","65f6c9b4-bd4c-4fc2-a4cc-93af5ba3c690","952af3b2-380f-40ef-97f7-e260c412a01e","f90fc700-cd9f-4157-abca-c99eb650feb0","e92d38f9-21fd-4279-bfb4-af7239cba0d0"],"title":"The
       Actual Flicker","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
   version: 1.0.0
   showAssembly: 0

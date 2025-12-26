@@ -118,8 +118,8 @@ MonoBehaviour:
     overrideState: 1
     value: 10
   diffusion:
-    overrideState: 0
-    value: 10
+    overrideState: 1
+    value: 7
   anamorphicRatio:
     overrideState: 0
     value: 0
@@ -153,15 +153,15 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   gradingMode:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 2
   externalLut:
-    overrideState: 0
-    value: {fileID: 0}
+    overrideState: 1
+    value: {fileID: 8600000, guid: 437b3c2ecf768f5488d347d7149bc328, type: 2}
     defaultState: 1
   tonemapper:
     overrideState: 1
-    value: 2
+    value: 3
   toneCurveToeStrength:
     overrideState: 0
     value: 0
