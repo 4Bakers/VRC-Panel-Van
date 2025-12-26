@@ -15,6 +15,7 @@ Material:
   - _LIGHTMAPSPECULAR
   - _NORMALMAP
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  - _VRCLV
   m_InvalidKeywords:
   - _BAKERY_NONE
   m_LightmapFlags: 4
@@ -111,6 +112,8 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _VRCLV: 1
+    - _VRCLVSurfaceBias: 0.05
     - _ZWrite: 1
     - _specularAntiAliasingThreshold: 0.25
     - _specularAntiAliasingVariance: 0.15
