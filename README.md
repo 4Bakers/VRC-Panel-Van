@@ -4,8 +4,8 @@ It's like-- the inside of a panel van. Maybe you got kidnapped or smth I don't k
 It's a panel van just because that limits the scope of the environment
 
 # Tools / Resources in Use
-- VRChat Creator Companion
-- Unity 2022
+- ALCOM (FOSS VRChat Creator Companion alternatove)
+- Latest recommended Unity version for VRChat (Unity 2022 as of writing)
 - Latest stable version of Blender (4.2 as of writing)
 - Adobe Photoshop
 - Adobe Audition
